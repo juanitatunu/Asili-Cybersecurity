@@ -201,11 +201,12 @@ footer {
 .iframe-container {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio for YouTube */
+    padding-bottom: 56.25%; /* Adjust as needed for aspect ratio */
     height: 0;
     overflow: hidden;
     background: #000;
     margin: 20px 0;
+    border-radius: 15px; /* Add rounded corners */
 }
 
 .iframe-container iframe {
@@ -215,7 +216,9 @@ footer {
     width: 100%;
     height: 100%;
     border: none;
+    border-radius: 15px; /* Match rounded corners */
 }
+
 
 /* Specific Container for Power BI Chart */
 .data-chart-container {
