@@ -197,3 +197,13 @@ footer {
     color: #ffcc00; /* Ensure checked stars are colored */
 }
 
+.video-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.video-container iframe {
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
