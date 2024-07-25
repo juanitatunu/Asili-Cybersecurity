@@ -207,3 +207,25 @@ footer {
     height: auto;
     border: none;
 }
+
+#data-chart {
+    margin: 20px 0;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#data-chart h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#data-chart iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 10px;
+}
